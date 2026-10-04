@@ -2,7 +2,7 @@
 
 *Short where prose runs long. Detailed where engineers need detail.*
 
-You know her. Twenty years on a copy desk. You hand her 2,000 words; she hands back 200 and a note that says "source?" next to your best number. Red Pen puts her inside your AI agent, for the docs PMs and founders write and everyone else has to read.
+PMs and founders write the docs everyone else has to read: PRDs, strategy briefs, status updates. Drafted with an AI agent, those docs come out long, padded, and easy to dismiss as "AI wrote this." Red Pen holds each doc type to a length budget, and it never cuts the detail engineers need to build from.
 
 | Plugin | For | What it cuts |
 | ------ | --- | ------------ |
@@ -12,9 +12,7 @@ You know her. Twenty years on a copy desk. You hand her 2,000 words; she hands b
 
 ## Why
 
-Docs written with AI get dismissed as "AI wrote this" because they are long, padded, and say the same thing three ways. The obvious fix, "be concise," breaks specs: a PRD trimmed for word count leaves engineers guessing, and guessing ships the wrong thing.
-
-Red Pen gives each doc type a **ceiling** and a **floor**:
+The obvious fix, "be concise," breaks specs: a PRD trimmed for word count leaves engineers guessing, and guessing ships the wrong thing. So Red Pen gives each doc type a **ceiling** and a **floor**:
 
 | Doc type | Ceiling | Floor |
 | -------- | ------- | ----- |
