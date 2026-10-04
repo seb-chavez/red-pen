@@ -1,0 +1,8 @@
+{
+  "type": "Slack reply",
+  "spec": false,
+  "must_keep": [
+    "Thursday",
+    "Pro"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "Status update",
+  "spec": false,
+  "must_keep": [
+    "carrier|10DLC",
+    "May 12",
+    "Legal|legal",
+    "31 %|31%"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "Project brief",
+  "spec": false,
+  "must_keep": [
+    "under 3 dentists|fewer than (3|three) dentists|<3 dentists",
+    "61 percent|61%",
+    "60 days",
+    "\\$399",
+    "May 1|May 1st"
+  ]
+}

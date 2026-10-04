@@ -1,0 +1,43 @@
+{
+  "type": "PRD",
+  "spec": true,
+  "must_keep": [
+    "48 hours",
+    "24 hours",
+    "\\$25",
+    "SMS",
+    "waitlist",
+    "reschedul",
+    "STOP|opt(ed)?[- ]?out"
+  ],
+  "spec_rubric": [
+    {
+      "behavior": "Patient replies C",
+      "truth": "The appointment is marked confirmed in the calendar."
+    },
+    {
+      "behavior": "Patient replies R",
+      "truth": "The patient gets a link to pick a new slot."
+    },
+    {
+      "behavior": "The original slot when a patient reschedules",
+      "truth": "It is released to the waitlist."
+    },
+    {
+      "behavior": "No reply 24 hours before the appointment",
+      "truth": "A second SMS is sent."
+    },
+    {
+      "behavior": "Still no reply after the second SMS",
+      "truth": "The appointment is flagged for the front-desk call list."
+    },
+    {
+      "behavior": "The $25 no-show fee",
+      "truth": "Optional, set by the clinic, off by default, shown in the message."
+    },
+    {
+      "behavior": "Patient replies STOP",
+      "truth": "The patient is opted out, never texted again, and flagged in their record."
+    }
+  ]
+}

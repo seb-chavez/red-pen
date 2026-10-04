@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "red-pen",
+  "description": "An editor's red pen for the docs PMs and founders share.",
+  "owner": {
+    "name": "Sebastian Chavez",
+    "url": "https://github.com/seb-chavez"
+  },
+  "plugins": [
+    {
+      "name": "red-pen",
+      "description": "Short where prose runs long, detailed where engineers need detail.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
